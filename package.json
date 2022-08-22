@@ -1,0 +1,14 @@
+{
+  "name": "rstudio_assignment",
+  "version": "1.0.0",
+  "description": "Rstudio E2E assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neha Ojha",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.6.0"
+  }
+}
