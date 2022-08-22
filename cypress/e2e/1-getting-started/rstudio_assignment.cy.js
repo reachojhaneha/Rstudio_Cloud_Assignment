@@ -49,7 +49,9 @@ function deleteIfSpaceExist() {
         const name = $space.text()
         $space.click()
         cy.get('button[class="action moreActions"]').click()
-        cy.get('button[class="action delete"]').should('exist').click()
+        cy.get('button[class="action delete"]').should('exist').contains('Delete Space').then(($deleteButton) => {
+          $deleteButton.click()
+        })
 
         // cy.get('input[aria-label="Name of space to delete"]').type("Delete " + spaceName)
         cy.get('input[aria-label="Name of space to delete"]').type("Delete " + name)
