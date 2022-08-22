@@ -5,6 +5,7 @@
 The Assignment will Login into the Rstudio Cloud application, Create a Space , create a new project and verify the IDE loading state using iFrame. I have created a method to login to the App and delete a space as basic user account is allowed with only 1 space creation. 
 
 ## Testplan Link
+Test Plan - https://docs.google.com/spreadsheets/d/1AG8A-fQ0SmJe5aDFF7KD9DuAKRiodJi3SYFpkcos3mE/edit#gid=0 (Access to everyone with link)
 
 
 ### How to Setup the Project
